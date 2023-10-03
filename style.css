@@ -1,0 +1,176 @@
+body{
+    font-family: Roboto, sans-serif; 
+    margin:0;
+}
+
+.awesome-container{
+    background-color:#1f2937;
+    display:flex;
+    flex-direction:column;
+    padding-inline: 200px;
+
+}
+ 
+
+
+.header{
+    font-size:24px;
+    color:#f9faf8;
+    font-weight:700;
+}
+
+ul{
+    list-style-type: none;
+    color:#e5e7eb;
+    font-size:18px; 
+    display:flex;
+    margin:0;
+    padding:0
+}
+
+li{
+    margin-right: 16px;
+}
+
+.top-bar{
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content:space-between;
+    padding:16px;
+}
+
+.main-text{
+    display:flex;
+    flex-direction:row;
+    margin-top:100px;
+    margin-bottom:100px;
+    align-items:center;
+    justify-content:space-between;
+}
+
+.left-stuff{
+    margin-right: 50px;
+}
+.intro-text{ 
+    font-size:48px; 
+    color:#F9faf8;
+    font-weight:900;
+}
+
+.intro-subtext{
+    color:#e5e7eb;
+    font-size:18px;
+    margin-bottom:10px;
+}
+
+button{
+    background-color: #3882f6;
+    color:#F9faf8;
+    font-family: Roboto, sans-serif;
+    font-weight:bold;
+    border-radius:10px;
+    border:2px solid#e5e7eb;
+    width:100px;
+    height:30px;
+    
+}
+
+.picture{
+    background-color:gray;
+    color:#e5e7eb;
+    width:400px;
+    height:150px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+}
+
+.info-header{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    font-size:36px;
+    color:#1f2937;
+    font-weight:900;
+    margin:50px;
+}
+
+.goesinrows{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    gap:36px;
+}
+
+.text{
+    max-width:120px;
+    margin-bottom:100px;
+}
+
+img{
+    border-radius:10px;
+    height:120px;
+    width:120px;
+}
+.quote-container{
+    background-color:#e5e7eb;
+    margin:0;
+    padding-inline:300px;
+    padding-top:100px;
+    padding-bottom:100px;
+}
+
+.quote{
+    font-size: 36px;
+    color:#1f2937;
+    font-style: italic;
+}
+
+.author{
+    font-size:20px;
+    font-weight: bold;
+    color:#1f2937;
+    text-align:right;
+}
+
+.signup-container{ 
+    background-color:#3882f6;
+    margin:100px;
+    display:flex;
+    
+}
+
+.blue-box{
+    display:flex;
+    flex-direction:row;
+    padding:30px   
+
+}
+
+.calltoaction{
+    font-size:16px;
+    font-weight:bold;
+    color:#F9faf8;
+   
+}
+.callsubtext{
+    font-size:10px;
+    color:#e5e7eb;
+}
+
+.leftyleft{
+    margin-left: 200px;
+    margin-right:300px;
+}   
+
+.copywrite{
+    background-color:#1f2937;
+    color:#e5e7eb;
+    display:flex;
+    justify-content:center;
+    padding: 35px;
+    
+}
